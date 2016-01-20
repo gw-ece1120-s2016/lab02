@@ -81,7 +81,8 @@ int main(void)
 Write a program called `part5.c` with the following contents. Run it
 and add a comment to explain the output.
 
-``` #include <stdio.h>
+```
+#include <stdio.h>
 
 int main(void)
 {

@@ -250,6 +250,24 @@ When you are done with this part make sure git tracks this file. Run following c
 git add part6.c
 ```
 
+## Submission procedure
+
+You have to "commit" changes you made in the assignment. In order to do that run:
+
+```
+$ git commit -am "Write some submission message here"
+```
+
+This will only update your local repository, meaning that nothing will be updated on github. You have to "push" your changes in order to do that:
+
+```
+$ git push origin master
+```
+
+Make sure you didn't receive any errors in the output.
+
+You can check the organization page on github for correct submission. Go to your own assignments repo, and make sure all the files are updated with the changes you made.
+
 ## Grading Rubric
 
 Parts 1-5 are worth 10 points each. Part 6 is worth 30 points.

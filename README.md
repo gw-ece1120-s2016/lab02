@@ -67,7 +67,7 @@ The output should exactly look like this:
 35 * 14 = 490
 35 // 14 = 2
 35 % 14 = 7
-35 / 14 = 22.500000
+35 / 14 = 2.2500000
 ```
 
 In order to produce this output, use printf to display text

@@ -205,6 +205,12 @@ int main(void)
 	if (c == '&') {
 		printf("the character is an ampersand\n");
 	}
+	else if (c == '@') {
+		printf("the character is an at-sign\n");
+	}
+	else {
+		printf("the character is not an ampersand and is not an at-sign\n");
+	}
 
 	return 0;
 }
@@ -312,6 +318,6 @@ Total : 100%
 You will receive *at most* 10% if your program does not compile. You
 will receive *at most* 20%if your program compiles with warnings.
 
-You will lose 2 points if you do not put your name in a comment near
+You will lose 20% if you do not put your name in a comment near
 the top of the program. 
 

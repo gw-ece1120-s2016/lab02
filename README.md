@@ -1,21 +1,25 @@
 # Introduction
-Assigned: 2016-01-20
 
-Due: 2016-01-27 11:59:59 PM EST
+*Assigned: 2016-01-20*
+
+*Due: 2016-01-27 11:59:59 PM EST*
 
 This is the Lab 2 assignment for ECE 1120 - C Programming for ECE.
 
 The goals of this lab are to introduce you to different C types,
 arithmetic, and printing.
 
+**Be sure to put your name in a comment at the top of each program you
+write.**
+
 # Steps
 
 ## Part 1
 
 Write a program called `part1.c` that declares and initializes two
-integer variables *x* and *y* with the values 35 and 14, and displays
-and calculates their sum, product, integer quotient and floating-point
-division quotient.
+integer variables `x` and `y` with the values `35` and `14`, and
+displays and calculates their sum, product, integer quotient and
+floating-point division quotient.
 
 
 The output should exactly look like this:
@@ -30,7 +34,7 @@ The output should exactly look like this:
 In order to produce this output, use printf to display text
 combined with values of variables!
 
-If you change the initial values of *x* and *y*, you should only have
+If you change the initial values of `x` and `y`, you should only have
 to modify this in a single place in the program.
 
 Add a comment to explain what you had to do in order to do
@@ -40,8 +44,8 @@ floating-point division, and why it was necessary.
 
 Copy the previous program into a file called `part2.c`. 
 
-In this copy, modify the values of *x* and *y* to a=123456789 and
-b=1000. Run the program and explain the results in a comment. Do the
+In this copy, modify the values of `x` and `y` to `a=123456789` and
+`b=1000`. Run the program and explain the results in a comment. Do the
 modifications needed in order to get the correct result.
 
 ## Part 3
@@ -111,4 +115,7 @@ Total : 10
 You will receive *at most* 1/10 points if your program does not
 compile. You will receive *at most* 2/10 points if your program
 compiles with warnings.
+
+You will lose 2 points if you do not put your name in a comment near
+the top of the program. 
 

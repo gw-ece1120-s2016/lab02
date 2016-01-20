@@ -231,7 +231,7 @@ this. Use the `if` statement in the example as a guidline.
 Make the program output look like the following:
 
 ```
-$. /part6
+$ ./part6
 enter first number:
 11
 enter second number:

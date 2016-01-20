@@ -18,8 +18,10 @@ write.**
 
 Write a program called `part1.c` that declares and initializes two
 integer variables `x` and `y` with the values `35` and `14`, and
-displays and calculates their sum, product, integer quotient and
-floating-point division quotient.
+displays and calculates their sum, product, integer quotient, integer
+remainder and floating-point division quotient. Note modulus operator
+in C, `%` which computes the integer remainder operator may be new to
+you.
 
 
 The output should exactly look like this:
@@ -150,7 +152,8 @@ Write this in a comment.
 
 Modify the above code to compute a result in a new variable based on
 the character. For example, if the user enters a `*`, compute and
-print `x * y`. Do this for the operators: `+`, `-`, `*`, `/`. 
+print `x * y`. Do this for the operators: `+`, `-`, `*`, `/`, `%`. If
+an unkown operator is entered, print an error message.
 
 You will have to write a conditional `if` statement to do
 this. Use the `if` statement in the example as a guidline.
@@ -176,6 +179,25 @@ enter second number:
 enter an operator:
 *
 16 * 137 is 2192
+
+$ ./part6                      
+enter first number:
+10
+enter second number:
+3
+enter an operator:
+%
+10 % 3 is 1
+
+$ ./part6
+enter first number:
+1
+enter second number:
+2
+enter an operator:
+#
+Unknown operator #
+1 # 2 is 0
 
 ```
 

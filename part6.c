@@ -29,6 +29,12 @@ int main(void)
 	if (c == '&') {
 		printf("the character is an ampersand\n");
 	}
+	else if (c == '@') {
+		printf("the character is an at-sign\n");
+	}
+	else {
+		printf("the character is not an ampersand and is not an at-sign\n");
+	}
 
 	return 0;
 }

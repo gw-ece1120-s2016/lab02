@@ -14,6 +14,43 @@ write.**
 
 # Steps
 
+## Prelude: Use git to clone the Lab 2 assignment.
+
+***Make sure you are inside your assignments folder.***
+
+From the cloud9 command-line, use the git source code control tool to
+make a copy of the starter source code for this assignment.
+
+```
+git clone https://github.com/gw-ece1120-s2016/lab02
+```
+
+You should see some output similar to this:
+```
+Cloning into 'lab02'...
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+Checking connectivity... done.
+```
+
+#### Do some house keeping before proceeding
+
+Remove .git folder from the assignment:
+
+```
+$ rm -rf lab02/.git
+```
+
+Make sure git tracks your progress on the assignment:
+
+```
+$ git add lab02/*
+```
+
+These steps are crucial for correct submission. We are not responsible for worng submissions, therefore please feel free to ask TA for clarification or confirmation.
+
 ## Part 1
 
 Write a program called `part1.c` that declares and initializes two
@@ -40,6 +77,11 @@ to modify this in a single place in the program.
 Add a comment to explain what you had to do in order to do
 floating-point division, and why it was necessary.
 
+When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
+```
+git add part1.c
+```
+
 ## Part 2
 
 Copy the previous program into a file called `part2.c`. 
@@ -47,6 +89,11 @@ Copy the previous program into a file called `part2.c`.
 In this copy, modify the values of `x` and `y` to `a=123456789` and
 `b=1000`. Run the program and explain the results in a comment. Do the
 modifications needed in order to get the correct result.
+
+When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
+```
+git add part2.c
+```
 
 ## Part 3
 
@@ -57,6 +104,11 @@ Print this variable as a character *and* as an integer.  Add the
 following statement: `letter=letter+1;` Print the updated value for
 variable letter, as a character and as an integer, explain the result
 in comment.
+
+When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
+```
+git add part3.c
+```
 
 ## Part 4 -- Floating-point Precision
 
@@ -81,6 +133,11 @@ int main(void)
 
 ```
 
+When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
+```
+git add part4.c
+```
+
 ## Part 5 -- Floating-point Overflow
 
 Write a program called `part5.c` with the following contents. Run it
@@ -103,6 +160,12 @@ int main(void)
 }
 
 ```
+
+When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
+```
+git add part5.c
+```
+
 
 ## Part 6 -- Simple Calculator (30 points)
 
@@ -181,6 +244,11 @@ enter an operator:
 
 (In the above, the `$ ./part6` shows the program being started. You
 don't have to print this from inside your program.)
+
+When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
+```
+git add part6.c
+```
 
 ## Grading Rubric
 

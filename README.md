@@ -137,7 +137,7 @@ int main(void)
 	 * default.
 	 */
 
-	if (c == '@') {
+	if (c == '&') {
 		printf("the character is an ampersand\n");
 	}
 

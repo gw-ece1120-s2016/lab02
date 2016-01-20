@@ -2,7 +2,7 @@
 
 *Assigned: 2016-01-20*
 
-*Due: 2016-01-27 11:59:59 PM EST*
+*Due: 2016-01-29 11:59:59 PM EST*
 
 This is the Lab 2 assignment for ECE 1120 - C Programming for ECE.
 
@@ -65,6 +65,11 @@ and add a comment to explain the output.
 
 ```
 #include <stdio.h>
+
+/* ECE1120 - Lab 2 part 4
+ * by Your Name Here.
+ */
+
 int main(void)
 {
 	double a, b;
@@ -84,6 +89,10 @@ and add a comment to explain the output.
 ```
 #include <stdio.h>
 
+/* ECE1120 - Lab 2 part 5
+ * by Your Name Here.
+ */
+
 int main(void)
 {
 	double number = 3.4E307;
@@ -95,27 +104,105 @@ int main(void)
 
 ```
 
+## Part 6 -- Simple Calculator (30 points)
+
+Write a program called `part6.c` with the following contents.
+
+```
+#include <stdio.h>
+
+/* ECE1120 - Lab 2 part 6
+ * by Your Name Here.
+ */
+
+int main(void)
+{
+	int x, y;
+	char c;
+
+	printf("enter first number:\n");
+	scanf("%d", &x);
+	printf("the first number is %d\n", x);
+
+	printf("enter second number:\n");
+	scanf("%d", &y);
+	printf("the second number is %d\n", y);
+
+	printf("enter a character:\n");
+	scanf("\n%c", &c);
+	printf("the character is %c\n", c);
+
+	/* Note: the newline in the scanf for a single character is needed
+	 * because the %c specifier does not ignore whitespace by
+	 * default.
+	 */
+
+	if (c == '@') {
+		printf("the character is an ampersand\n");
+	}
+
+	return 0;
+}
+```
+
+What happens when an invalid integer is entered in the above program?
+Write this in a comment.
+
+Modify the above code to compute a result in a new variable based on
+the character. For example, if the user enters a `*`, compute and
+print `x * y`. Do this for the operators: `+`, `-`, `*`, `/`. 
+
+You will have to write a conditional `if` statement to do
+this. Use the `if` statement in the example as a guidline.
+
+### Example Output
+Make the program output look like the following:
+
+```
+$. /part6
+enter first number:
+11
+enter second number:
+22
+enter an operator:
++
+11 + 22 is 33
+
+$ ./part6
+enter first number:
+16
+enter second number:
+137
+enter an operator:
+*
+16 * 137 is 2192
+
+```
+
+(In the above, the `$ ./part6` shows the program being started. You
+don't have to print this from inside your program.)
+
 ## Grading Rubric
 
-Each part is worth 10 points.
+Parts 1-5 are worth 10 points each. Part 6 is worth 30 points.
+
 For each part, the rubric is:
 
 
 ```
-Program compiles                       : 1
-Program compiles with no warnings      : 1
-Some output generated                  : 1
+Program compiles                       : 10%
+Program compiles with no warnings      : 10%
+Some output generated                  : 10%
 
-Correct output                         : 4
-Quality of explanation in comment      : 3
+Correct output                         : 40%
+Quality of explanation in comment      : 30%
 
 
-Total : 10
+Total : 100%
 ```
 
-You will receive *at most* 1/10 points if your program does not
-compile. You will receive *at most* 2/10 points if your program
-compiles with warnings.
+You will receive *at most* 10% if your program does not compile. You
+will receive *at most* 20%if your program compiles with warnings.
 
 You will lose 2 points if you do not put your name in a comment near
 the top of the program. 

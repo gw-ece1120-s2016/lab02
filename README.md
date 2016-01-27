@@ -149,7 +149,7 @@ int main(void)
 
 ```
 
-//When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
+
 
 
 
@@ -257,16 +257,16 @@ Unknown operator #
 (In the above, the `$ ./part6` shows the program being started. You
 don't have to print this from inside your program.)
 
-//When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
 
 
 ## Submission procedure
-
-You have to "commit" changes you made in the assignment. In order to do that run:
-
+When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
 ```
 $ git add lab02/*
 ```
+You have to "commit" changes you made in the assignment. In order to do that run:
+
+
 ```
 $ git commit -am "Write some submission message here"
 ```

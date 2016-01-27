@@ -22,7 +22,8 @@ From the cloud9 command-line, use the git source code control tool to
 make a copy of the starter source code for this assignment.
 
 ```
-git clone https://github.com/gw-ece1120-s2016/lab02
+$ cd <your Github Id>_assignment
+$ git clone https://github.com/gw-ece1120-s2016/lab02
 ```
 
 You should see some output similar to this:

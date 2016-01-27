@@ -262,19 +262,19 @@ don't have to print this from inside your program.)
 ## Submission procedure
 When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
 ```
-$ git add lab02/*
+$ git add *
 ```
 You have to "commit" changes you made in the assignment. In order to do that run:
 
 
 ```
-$ git commit -am "Write some submission message here"
+$ git commit -m "Write some submission message here"
 ```
 
 This will only update your local repository, meaning that nothing will be updated on github. You have to "push" your changes in order to do that:
 
 ```
-$ git push origin master
+$ git push
 ```
 
 Make sure you didn't receive any errors in the output.

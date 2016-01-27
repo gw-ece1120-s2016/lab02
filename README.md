@@ -45,9 +45,7 @@ $ rm -rf lab02/.git
 
 Make sure git tracks your progress on the assignment:
 
-```
-$ git add lab02/*
-```
+
 
 These steps are crucial for correct submission. We are not responsible for worng submissions, therefore please feel free to ask TA for clarification or confirmation.
 
@@ -79,10 +77,7 @@ to modify this in a single place in the program.
 Add a comment to explain what you had to do in order to do
 floating-point division, and why it was necessary.
 
-When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
-```
-git add part1.c
-```
+
 
 ## Part 2
 
@@ -92,10 +87,7 @@ In this copy, modify the values of `x` and `y` to `a=123456789` and
 `b=1000`. Run the program and explain the results in a comment. Do the
 modifications needed in order to get the correct result.
 
-When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
-```
-git add part2.c
-```
+
 
 ## Part 3
 
@@ -107,10 +99,7 @@ following statement: `letter=letter+1;` Print the updated value for
 variable letter, as a character and as an integer, explain the result
 in comment.
 
-When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
-```
-git add part3.c
-```
+
 
 ## Part 4 -- Floating-point Precision
 
@@ -135,10 +124,7 @@ int main(void)
 
 ```
 
-When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
-```
-git add part4.c
-```
+
 
 ## Part 5 -- Floating-point Overflow
 
@@ -163,10 +149,8 @@ int main(void)
 
 ```
 
-When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
-```
-git add part5.c
-```
+//When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
+
 
 
 ## Part 6 -- Simple Calculator (30 points)
@@ -273,15 +257,16 @@ Unknown operator #
 (In the above, the `$ ./part6` shows the program being started. You
 don't have to print this from inside your program.)
 
-When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
-```
-git add part6.c
-```
+//When you are done with this part make sure git tracks this file. Run following command form inside lab02 folder:
+
 
 ## Submission procedure
 
 You have to "commit" changes you made in the assignment. In order to do that run:
 
+```
+$ git add lab02/*
+```
 ```
 $ git commit -am "Write some submission message here"
 ```
